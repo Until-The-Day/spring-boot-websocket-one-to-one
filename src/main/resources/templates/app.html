@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>app1</title>
+
+    <script th:src="@{/js/app.js}"></script>
+
+    <script th:src="@{/js/jquery-3.4.1.min.js}"></script>
+
+</head>
+<body>
+hello world! app1
+<div>
+    <br/>
+    <div>
+        <input type="text" id="name" value=""/>
+        <input type="button" value="singIn" onclick="singIn();"/>
+    </div>
+
+    <br/>
+    <div>
+        <input type="text" id="callName" value=""/>
+        <input type="text" id="callVal" value="">
+        <input type="button" value="call" onclick="call();"/>
+
+    </div>
+</div>
+</body>
+</html>
